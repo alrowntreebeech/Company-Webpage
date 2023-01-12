@@ -1,0 +1,230 @@
+/*Universal Styles*/
+
+html {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.sectionhead {
+    font-family: "Exo";
+    font-size: 2rem;
+    text-align: center;
+}
+
+body {
+    background-color: #e6ffff;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+/*Header Section*/
+
+header {
+    height: 12.8125rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+
+.logo{
+    height: 12.8125rem;
+    height: 12.8125rem;
+    overflow: hidden;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+header nav {
+    min-width: 50rem;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 2.5rem;
+}
+
+header nav li {
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+/*Main Caption Section*/
+
+#banner {
+   margin-top: 12.8125rem; 
+   height: 50rem;
+   background-image: url(../images/Banner.jpg);
+   background-size: cover;
+   background-position-x: 50%;
+   background-position-y: 75%;
+   display: flex;
+   align-items: center;
+}
+
+.slogan {
+    font-family: 'Exo';
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.slogan h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    text-decoration: overline underline;
+    letter-spacing: 0.3em;
+    padding-bottom: 0.1rem;
+    margin-bottom:  0.1rem;
+}
+
+.slogan .cursive {
+    margin-top: 0.1rem;
+    padding-top: 0.1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.slogan .cursive h4 {
+    margin-top: 0.4rem;
+}
+
+
+/*Expertise Section*/
+
+#expertise{
+    margin-top: 5rem;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery .container {
+    padding: 1.5rem;
+    width: 30rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black solid 1px;
+}
+
+.first, .third {
+    background-color: white;
+}
+
+.second, .forth {
+    background-color: #f2f2f2;
+}
+
+.container p{
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+.gallery .frame {
+    width: 20rem;
+    height: 60%;
+    overflow: hidden;
+}
+
+.frame img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*Team Section*/
+
+#team {
+    margin-top: 5rem;
+    padding-top: 1rem;
+    background-color: #f2f2f2;
+    padding-bottom: 5rem;
+}
+
+#team .gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+#team .container {
+    border: none;
+    background-color: white;
+    height: 35rem;
+}
+
+#team .gallery .container:last-child {
+    width: 60rem;
+}
+
+#team .img:first-child {
+    height: 100%;
+    width: auto;
+    display: block;    
+}
+
+#team span {
+    text-decoration: line-through;
+}
+
+
+/*Footer Section*/
+
+#companyinfo{
+    border-top: black 3px solid;
+    padding-bottom: 5rem;
+}
+
+#companyinfo h3{
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+#companyinfo .addresses{
+    display: flex;
+    justify-content: space-around;
+}
+
+#companyinfo .location{
+    width: 30rem;
+    padding-left: 2.5rem;
+    border: black 3px solid;
+    border-style: dotted;
+    height: auto;
+    background-color: bisque;
+}
